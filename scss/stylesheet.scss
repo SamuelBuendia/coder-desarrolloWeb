@@ -1,0 +1,40 @@
+@import "colors";
+
+// Tamaños Pantalla
+
+.h-100 {
+  height: 100vh !important;
+}
+
+.h-90 {
+  height: 90vh !important;
+}
+
+.h-80 {
+  height: 80vh !important;
+}
+
+.h-60 {
+  height: 60vh !important;
+}
+
+.h-50 {
+  height: 50vh !important;
+}
+
+.bg-beige {
+  background-color: $beige;
+}
+
+.bg-beigeGreen {
+  background-color: $beigeGreen;
+}
+
+.text-center {
+  align-items: center;
+  text-align: center;
+}
+
+.text-rigth {
+  text-align: right;
+}
