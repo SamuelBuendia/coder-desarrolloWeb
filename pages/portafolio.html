@@ -10,135 +10,208 @@
       crossorigin="anonymous"
     />
     <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="../css/stylesheet.css" />
     <title>Samuel Buendía</title>
   </head>
 
   <body>
-    <header>
-      <h6 class="text-center">Samuel Buendía - Hoja de Vida</h6>
-    </header>
+    <nav
+      class="navbar sticky-top navbar-expand-lg navbar-light bg-light px-md-5"
+    >
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <nav>
-      <ul id="NavBar">
-        <li><a href="index.html">Inicio</a></li>
-        <li>
-          <a href="estudios.html">Estudios</a>
-          <ul>
-            <li><a href="estudios.html">Educación Superior</a></li>
-            <li><a href="estudios.html">Cursos</a></li>
-          </ul>
-        </li>
-        <li><a href="experiencia.html">Experiencia</a></li>
-        <li><a href="portafolio.html">Portafolio</a></li>
-        <li><a href="contacto.html">Contácto</a></li>
-      </ul>
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="estudios.html">Estudios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="certificados.html">Certificados</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experiencia.html">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portafolio.html">Portafolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contácto</a>
+          </li>
+        </ul>
+      </div>
     </nav>
 
-    <section>
-      <h2 class="text-center">Portafolio</h2>
-      <section class="row-flex">
-        <section class="row-50">
-          <h4>Calculadora</h4>
+    <section class="container-fluid bg-beige">
+      <section class="row align-items-center border-bottom">
+        <div class="col-12 text-center my-5">
+          <h1>Portafolio</h1>
+        </div>
+        <div class="col-12 col-md-5 ml-auto my-3 my-md-5">
+          <h2>Calculadora</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Estudiante de Tecnólogo en Análisis y desarrollo de sistemas de
+            información. Encaminado al crecimiento personal y profesional.
+            Comprometido con el aprendizaje, dinámico, proactivo, organizado y
+            atento. Con liderazgo, planeación, toma de decisiones, orientación a
+            los resultados e iniciativa para ofrecer buenos resultados.
           </p>
 
-          <div>
-            <a href="ejemplo.com" target="_blank" class=""
-              >Mirame en producción</a
-            >
+          <div class="d-flex justify-content-start align-items-center">
+            <img
+              class="mr-2"
+              style="width: 5%"
+              src="../img/portafolio/desktop-solid.svg"
+            />
+            <p class="mb-0">Mirame en producción</p>
           </div>
-          <br />
-          <div class="text-rigth">
-            <a href="ejemplo.com" target="_blank" class=""
-              >Mira mi repositorio</a
-            >
+
+          <div class="d-flex justify-content-center align-items-center">
+            <p class="mb-0 mr-2">Mira mi repositorio</p>
+            <img style="width: 5%" src="../img/portafolio/github-brands.svg" />
           </div>
-        </section>
-        <section class="row-50 text-center">
-          <img
-            src="https://calculadorasonline.com/wp-content/uploads/2019/01/calculadora-de-ecuaciones-Calculadora-algrebraica-tutorial-01-min_opt.jpg"
-          />
-        </section>
+        </div>
+
+        <div class="col-12 col-md-6 d-flex justify-content-center my-4 my-md-5">
+          <img src="../img/samueleditReducida.jpg" class="img-fluid" />
+        </div>
       </section>
 
-      <section class="row-flex">
-        <section class="row-50 text-center">
-          <img
-            src="https://calculadorasonline.com/wp-content/uploads/2019/01/calculadora-de-ecuaciones-Calculadora-algrebraica-tutorial-01-min_opt.jpg"
-          />
-        </section>
-        <section class="row-50">
-          <h4>PortafolioDos</h4>
+      <section class="row align-items-center border-bottom">
+        <div class="col-12 col-md-6 d-flex justify-content-center my-4 my-md-5">
+          <img src="../img/samueleditReducida.jpg" class="img-fluid" />
+        </div>
+        <div class="col-12 col-md-5 mr-auto my-3 my-md-5">
+          <h2>Calculadora</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Estudiante de Tecnólogo en Análisis y desarrollo de sistemas de
+            información. Encaminado al crecimiento personal y profesional.
+            Comprometido con el aprendizaje, dinámico, proactivo, organizado y
+            atento. Con liderazgo, planeación, toma de decisiones, orientación a
+            los resultados e iniciativa para ofrecer buenos resultados.
           </p>
-          <div>
-            <a href="ejemplo.com" target="_blank" class=""
-              >Mirame en producción</a
-            >
+
+          <div class="d-flex of justify-content-start align-items-center">
+            <img
+              class="mr-2"
+              style="width: 5%"
+              src="../img/portafolio/desktop-solid.svg"
+            />
+            <p class="mb-0">Mirame en producción</p>
           </div>
-          <br />
-          <div class="text-rigth">
-            <a href="ejemplo.com" target="_blank" class=""
-              >Mira mi repositorio</a
-            >
+
+          <div class="d-flex justify-content-center align-items-center">
+            <p class="mb-0 mr-2">Mira mi repositorio</p>
+            <img style="width: 5%" src="../img/portafolio/github-brands.svg" />
           </div>
-        </section>
+        </div>
+      </section>
+
+      <section class="row align-items-center border-bottom">
+        <div class="col-12 col-md-5 ml-auto my-3 my-md-5">
+          <h2>Calculadora</h2>
+          <p>
+            Estudiante de Tecnólogo en Análisis y desarrollo de sistemas de
+            información. Encaminado al crecimiento personal y profesional.
+            Comprometido con el aprendizaje, dinámico, proactivo, organizado y
+            atento. Con liderazgo, planeación, toma de decisiones, orientación a
+            los resultados e iniciativa para ofrecer buenos resultados.
+          </p>
+
+          <div class="d-flex justify-content-start align-items-center">
+            <img
+              class="mr-2"
+              style="width: 5%"
+              src="../img/portafolio/desktop-solid.svg"
+            />
+            <p class="mb-0">Mirame en producción</p>
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <p class="mb-0 mr-2">Mira mi repositorio</p>
+            <img style="width: 5%" src="../img/portafolio/github-brands.svg" />
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 d-flex justify-content-center my-4 my-md-5">
+          <img src="../img/samueleditReducida.jpg" class="img-fluid" />
+        </div>
       </section>
     </section>
 
     <footer>
-      <section class="row-flex text-center">
-        <div class="row-50">
-          <h5>Contáctame</h5>
-          <p>Email: sbuendiapuyo@gmail.com</p>
-          <p>Teléfono: (+57) 3155927974</p>
-        </div>
+      <section class="container">
+        <div
+          class="row py-4 justify-content-center align-items-center text-center"
+        >
+          <div class="col-12 col-md-6">
+            <h5>Contáctame</h5>
+            <p class="mb-1">Email: sbuendiapuyo@gmail.com</p>
+            <p>Teléfono: (+57) 3155927974</p>
+          </div>
 
-        <section class="row-50">
-          <h5>Redes Sociales</h5>
-          <a
-            href="https://www.facebook.com/profile.php?id=100009490854595"
-            target="_blank"
-            class=""
-            >Facebook</a
-          >
-          <a
-            href="https://www.linkedin.com/in/samuel-buendía-a433a81a"
-            target="_blank"
-            class=""
-            >Linkedin</a
-          >
-          <a href="https://github.com/SamuelBuendia" target="_blank" class=""
-            >GitHub</a
-          >
-        </section>
+          <div class="col-12 col-md-6">
+            <h5>Redes Sociales</h5>
+
+            <a
+              href="https://www.facebook.com/profile.php?id=100009490854595"
+              target="_blank"
+            >
+              <img
+                style="width: 3%"
+                src="../img/footer/facebook-f-brands.svg"
+                alt=""
+            /></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100009490854595"
+              target="_blank"
+            >
+              <img
+                class="mx-3"
+                style="width: 5%"
+                src="../img/footer/linkedin-in-brands.svg"
+                alt=""
+            /></a>
+            <a
+              href="https://www.facebook.com/profile.php?id=100009490854595"
+              target="_blank"
+            >
+              <img
+                style="width: 5%"
+                src="../img/footer/github-brands.svg"
+                alt=""
+            /></a>
+          </div>
+        </div>
       </section>
-      <section class="text-center">
-        <p>Todos los derechos reservados 2020</p>
-      </section>
+
+      <div class="container-fluid bg-dark text-light">
+        <div class="col-12 d-flex justify-content-center align-items-center">
+          <p class="mt-3">Todos los derechos reservados 2020</p>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
