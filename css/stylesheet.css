@@ -70,3 +70,11 @@
 
 .text-rigth {
   text-align: right; }
+
+@media (min-width: 300px) {
+  .text-experience {
+    text-align: center !important; } }
+
+@media (min-width: 768px) {
+  .text-experience {
+    text-align: left !important; } }
